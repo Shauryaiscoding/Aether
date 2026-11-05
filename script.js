@@ -1,3 +1,4 @@
+console.log("AETHER JAVASCRIPT IS RUNNING");
 
 function createCard(title, description) {
     return `
@@ -8,13 +9,11 @@ function createCard(title, description) {
     `;
 }
 
+// Find the container
 const container = document.getElementById("cards-container");
 
-
-const container = document.getElementById("cards-container");
-
+// Generate the cards
 container.innerHTML =
     createCard("Artificial Intelligence", "Machines that learn") +
     createCard("Web3", "The decentralised internet") +
     createCard("Robotics", "Intelligent machines");
-

@@ -219,3 +219,63 @@ body {
     letter-spacing: 4px;
     margin-bottom: 20px;
 }
+/* DISCOVER SECTION */
+
+.discover {
+    padding: 100px 10%;
+    border-top: 1px solid rgba(255,255,255,0.08);
+    background: #0B1020;
+}
+
+.discover > h2 {
+    text-align: center;
+    font-size: 32px;
+    letter-spacing: 5px;
+    margin-bottom: 60px;
+}
+
+/* CARDS CONTAINER */
+
+#cards-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+/* INDIVIDUAL CARD */
+
+.card {
+    padding: 35px 25px;
+    background: #111A2E;
+    border: 1px solid #26354D;
+    border-radius: 12px;
+    transition: 0.3s;
+}
+
+.card h2 {
+    color: #55AFFF;
+    font-size: 21px;
+    margin-bottom: 18px;
+}
+
+.card p {
+    color: #AAB4C8;
+    line-height: 1.7;
+    font-size: 14px;
+}
+
+/* HOVER EFFECT */
+
+.card:hover {
+    transform: translateY(-10px);
+    border-color: #55AFFF;
+    box-shadow: 0 10px 35px rgba(38,120,217,0.15);
+}
+
+/* RESPONSIVE DESIGN */
+
+@media (max-width: 800px) {
+    #cards-container {
+        grid-template-columns: 1fr;
+    }
+}
