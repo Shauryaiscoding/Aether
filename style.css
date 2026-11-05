@@ -208,3 +208,14 @@ body {
     transform: translateY(-8px);
     border-color: #55AFFF;
 }
+.discover {
+    padding: 80px 8%;
+    border-top: 1px solid #26354D;
+}
+
+.discover > h2 {
+    text-align: center;
+    font-size: 32px;
+    letter-spacing: 4px;
+    margin-bottom: 20px;
+}
